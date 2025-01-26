@@ -20,8 +20,4 @@ class StudentController extends Controller
         Student::create($request->all());
         return redirect()->route('index')->with('message', 'Student Registerd Successfully!');
     }
-	
-	public function test(){
-		//Funcctin to test
-	}
 }
